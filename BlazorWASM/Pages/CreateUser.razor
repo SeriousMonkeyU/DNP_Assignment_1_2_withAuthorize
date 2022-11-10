@@ -1,0 +1,68 @@
+﻿@page "/CreateUser"
+@using global::Shared.DTOs
+@using HttpClient.ClientInterfaces
+@inject IUserService userService;
+
+<div class="card">
+    <h3>Create User</h3>
+    
+    <div class="form-group field">
+        <label>User name:</label>
+        <input type="text" @bind="username" @bind:event="oninput"/>
+        <br>
+        <label>Password:  </label>
+        <input type="text" @bind="password" @bind:event="oninput"/>
+        @if (!string.IsNullOrEmpty(resultMsg))
+        {
+            <label style="color: @color">@resultMsg</label>
+        }
+        <br>
+        <label>DOB: </label>
+        <input type="date" @bind="dob" @bind:event="oninput" min="1970-01-01" max="2022-12-31"/>
+        <br>
+        <label>Email:</label>
+        <input type="text" @bind="email" @bind:event="oninput"/>
+        <br>
+        <label>Role:</label>
+        <input type="text" @bind="role" @bind:event="oninput"/>
+       <br>
+    </div>
+    <div class="button-row">
+        <button @onclick="Create"  disabled="@(string.IsNullOrEmpty(username)|| string.IsNullOrEmpty(password))" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+@code {
+    private string username = "";
+    private string password = "";
+
+    private DateTime dob = DateTime.Today;
+    private string email = "";
+    private string role = "";
+    
+    private string resultMsg = "";
+    private string color = "";
+
+    private async Task Create()
+    {
+        resultMsg = "";
+
+        try
+        {
+            await userService.Create(new UserCreationDTO(username, password, dob, email, role));
+            username = "";
+            password = "";
+            dob = DateTime.Today;
+            email = "";
+            role = "";
+            resultMsg = "User successfully created";
+            color = "green";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    } 
+}
