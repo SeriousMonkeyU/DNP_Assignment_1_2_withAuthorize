@@ -507,11 +507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\FileData\\FileData.csproj",
+      "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\FileData\\FileData.csproj",
+      "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\FileData\\FileData.csproj",
       "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
-      "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\FileData\\obj\\",
+      "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -526,8 +526,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\Application\\Application.csproj": {
-              "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\Application\\Application.csproj"
+            "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\Application\\Application.csproj": {
+              "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\Application\\Application.csproj"
             }
           }
         }

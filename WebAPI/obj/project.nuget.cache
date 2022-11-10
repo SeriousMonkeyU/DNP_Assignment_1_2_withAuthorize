@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "llEGQ2vp7coEyelXC6MzxbrZo/OqqgSwvp6/AyIuBGjx6uIR/OPLl3pHnZx0nSEy3bDYzTSOzmC22xoa8WjZhQ==",
+  "dgSpecHash": "gRXp4A5LY15AQoeu+f3uiaW0pGysClJKTWOeqvM1YhjwbC7/vUdYZZ6ShyazSh4eVpwJNlV8YdGfDRHwmF2vYA==",
   "success": true,
-  "projectFilePath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",

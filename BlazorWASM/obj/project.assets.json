@@ -2070,11 +2070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\BlazorWASM\\BlazorWASM.csproj",
+      "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\BlazorWASM\\BlazorWASM.csproj",
       "projectName": "BlazorWASM",
-      "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\BlazorWASM\\BlazorWASM.csproj",
+      "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\BlazorWASM\\BlazorWASM.csproj",
       "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
-      "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\BlazorWASM\\obj\\",
+      "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\BlazorWASM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2089,8 +2089,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\HttpClient\\HttpClient.csproj": {
-              "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\HttpClient\\HttpClient.csproj"
+            "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\HttpClient\\HttpClient.csproj": {
+              "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\HttpClient\\HttpClient.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G6XFcIvFGDR6tesq1/HfYS+gRjb5WXSJ0Ob1DuQLEUh1CVb/YXCZZcSBrmLOw7fBLE2nUuzPngNkXXGKp/xZAQ==",
+  "dgSpecHash": "9z4jaGutnZZCSgjW8zeV2DMXOL0pAZHegTKQn88uzX3bsqWMZeZu+hGNpFfXrsU/+KkuEErK3JDGNfWuRx/gaw==",
   "success": true,
-  "projectFilePath": "C:\\Denmark studies\\3rd semester\\DNP\\Assignment1_2\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Denmark studies\\3rd semester\\DNP\\DNP_Assignment_1_2_withAuthorize\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
